@@ -1,6 +1,6 @@
 # Structured World Representations in Maze-Solving Transformers
 
-This repository contains notebooks for replicating the results of the paper "Structured World Representations in Maze-Solving Transformers". The paper can currently be found on ArXiv as [2312.02566](https://arxiv.org/abs/2312.02566). Our accompanying blog post can be found at [unsearch.org/research/01_maze_transformer_world_representations](https://unsearch.org/research/01_maze_transformer_world_representations/).
+This repository contains notebooks for replicating the results of the paper "Structured World Representations in Maze-Solving Transformers". The paper can currently be found on ArXiv as [2312.02566](https://arxiv.org/abs/2312.02566). Our accompanying blog post can be found at [unsearch.org/research/01_maze_transformer_world_representations](https://unsearch.org/research/01_maze_transformer_world_representations/) (also see the [twitter thread](https://twitter.com/afspies/status/1733070221865341226)).
 
 This repository contains only finalized notebooks for the ArXiv and UniReps 2023 papers, which depend on our base libraries to work:
 
@@ -28,6 +28,8 @@ pip install -e .
 Notebooks and required model files are located in the `notebooks` directory. If using poetry, select the initialized virtual environment and run the notebook.
 
 Notebooks may generate a variety of files during runtime, such as test datasets and figures.
+
+Please feel free to submit an [issue](https://github.com/understanding-search/structured-representations-maze-transformers/issues) if you have any questions, comments, or trouble running the notebooks -- we are happy to help!
 
 # Citing
 
